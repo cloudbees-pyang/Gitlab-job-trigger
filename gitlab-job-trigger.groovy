@@ -8,10 +8,10 @@ pipeline {
       steps {
         script {
         
-          def yourProjectID = "44253509"
-          def yourGiblabToken = "glpat-dCHhnx8e6fJsjTNLZxAA"  
+          def yourProjectID = <your-project-id>
+          def yourGiblabToken = <your-gitlab-token>  
           
-          def iasJobID = "3993993127"
+          def iasJobID = <your-job-id>
           
           def gitlabProjectUrl = "https://gitlab.com/api/v4/projects/${yourProjectID}/"
           def gitlabToken = yourGiblabToken
